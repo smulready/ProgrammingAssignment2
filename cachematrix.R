@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     
     # Retrieve inverse from x
-    <- x$getinverse()
+    inv <- x$getinverse()
     
     # If inverse exists return stored value
     if(!is.null(inv)) {
